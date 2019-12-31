@@ -2,7 +2,8 @@
 # Write a function which takes a number as argument.
 # Print all odd numbers till that number.
 
-
+def print_odd_numbers(limit):
+    print([item for item in range(limit+1) if(item%2 != 0)])
 
 print_odd_numbers(20)
 

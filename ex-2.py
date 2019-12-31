@@ -3,7 +3,7 @@
 #and prints hello, <name>
 
 def say_hello(*args):
-    for item in locals()['args']:
+    for item in args:
         print("Hello, {}".format(item))
     print('\n')
     
